@@ -27,7 +27,7 @@ $$
 We conduct a comprehensive evaluation on OmniDoc-TokenBench (~3K text-rich images, 256×256). Models are grouped by spatial compression factor and sorted by NED within each group.
 
 <p align="center">
-  <img src="assets/results.png" alt="Eval-Results" style="max-width: 768px; width: 100%; height: auto;" />
+  <img src="assets/results.png" alt="Eval-Results" style="max-width: 512px; width: 100%; height: auto;" />
 <p>
 
 ---
