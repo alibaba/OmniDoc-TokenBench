@@ -9,7 +9,7 @@ Technical report and dataset are coming soon.
 **OmniDoc-TokenBench** is a curated benchmark of ~3K text-rich document images for evaluating VAE reconstruction on textual content, alongside an evaluation toolkit supporting PSNR, SSIM, LPIPS, FID, and OCR-based NED metrics. It spans nine categories (*book*, *slides*, *color textbook*, *exam paper*, *academic paper*, *magazine*, *financial report*, *newspaper*, *note*) in both English and Chinese.
 
 <p align="center">
-  <img src="assets/bench.png" alt="OmniDoc-TokenBench" style="max-width: 1328px; width: 100%; height: auto;" />
+  <img src="assets/bench.png" alt="OmniDoc-TokenBench" style="max-width: 1024px; width: 100%; height: auto;" />
 <p>
 
 Derived from OmniDocBench, each sample is cropped from a text block and resized to 256x256 with reference character sizes of 16px (Chinese) and 10px (English). We filter for sufficient character density ([200, 600] for Chinese, [300, 600] for English), deduplicate via n-gram overlap, and manually inspect for quality.
@@ -27,7 +27,7 @@ $$
 We conduct a comprehensive evaluation on OmniDoc-TokenBench (~3K text-rich images, 256×256). Models are grouped by spatial compression factor and sorted by NED within each group.
 
 <p align="center">
-  <img src="assets/results.png" alt="Eval-Results" style="max-width: 1024px; width: 100%; height: auto;" />
+  <img src="assets/results.png" alt="Eval-Results" style="max-width: 768px; width: 100%; height: auto;" />
 <p>
 
 ---
