@@ -13,13 +13,9 @@
 # limitations under the License.
 #
 # Usage:
-#     python eval_metrics.py --gt_dir ./gt --recon_dir ./recon                    # NED only
-#     python eval_metrics.py --gt_dir ./gt --recon_dir ./recon --mode pixel       # PSNR/SSIM/LPIPS/FID
-#     python eval_metrics.py --gt_dir ./gt --recon_dir ./recon --mode all         # All metrics
-#
-# Dependencies:
-#     pip install torch torchvision piq lpips pytorch-fid pillow numpy tqdm
-#     pip install paddleocr python-Levenshtein  # for NED
+#     python eval_metrics.py --gt_dir ./gt_dir --recon_dir ./recon_dir                    # NED only
+#     python eval_metrics.py --gt_dir ./gt_dir --recon_dir ./recon_dir --mode pixel       # PSNR/SSIM/LPIPS/FID
+#     python eval_metrics.py --gt_dir ./gt_dir --recon_dir ./recon_dir --mode all         # All metrics
 
 import argparse
 import numpy as np
