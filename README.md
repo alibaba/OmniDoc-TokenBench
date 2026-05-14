@@ -4,8 +4,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![HF Dataset](https://img.shields.io/badge/HF%20Dataset-OmniDoc--TokenBench-yellow?logo=huggingface)](https://huggingface.co/datasets/alibabagroup/OmniDoc-TokenBench)
-
-[//]: # ([![arXiv]&#40;https://img.shields.io/badge/arXiv-QwenImageVAE2.0-B31B1B?logo=arxiv&logoColor=white&#41;]&#40;https://arxiv.org/abs/2605.10730&#41;)
+[![arXiv](https://img.shields.io/badge/arXiv-QwenImageVAE2.0-B31B1B?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.13565)
 
 </div>
 
