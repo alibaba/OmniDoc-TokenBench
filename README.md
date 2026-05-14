@@ -16,8 +16,7 @@
 
 > 🤗 **Dataset Download**: [https://huggingface.co/datasets/alibabagroup/OmniDoc-TokenBench](https://huggingface.co/datasets/alibabagroup/OmniDoc-TokenBench)
 
-
-**OmniDoc-TokenBench** is a curated benchmark of ~3K text-rich document images for evaluating VAE reconstruction on textual content, alongside an evaluation toolkit supporting PSNR, SSIM, LPIPS, FID, and OCR-based NED metrics. It spans nine categories (*book*, *slides*, *color textbook*, *exam paper*, *academic paper*, *magazine*, *financial report*, *newspaper*, *note*) in both English and Chinese.
+We propose **OmniDoc-TokenBench** in [Qwen-Image-VAE-2.0](https://arxiv.org/abs/2605.13565), a curated benchmark specifically designed to evaluate VAE reconstruction on text-rich document images. It contains ~3K samples spanning nine categories (*book*, *slides*, *color textbook*, *exam paper*, *academic paper*, *magazine*, *financial report*, *newspaper*, *note*) in both English and Chinese, alongside an evaluation toolkit supporting PSNR, SSIM, LPIPS, FID, and OCR-based NED metrics.
 
 <p align="center">
   <img src="assets/bench.png" alt="OmniDoc-TokenBench" width="80%" />
