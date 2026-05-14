@@ -145,7 +145,15 @@ The script writes results (FLUX1.dev as example) to the `--save_path` directory 
 If you use OmniDoc-TokenBench or this evaluation toolkit in your research, please cite:
 
 ```bibtex
-% TODO
+@misc{zhang2026qwenimagevae20technicalreport,
+      title={Qwen-Image-VAE-2.0 Technical Report}, 
+      author={Zekai Zhang and Deqing Li and Kuan Cao and Yujia Wu and Chenfei Wu and Yu Wu and Liang Peng and Hao Meng and Jiahao Li and Jie Zhang and Kaiyuan Gao and Kun Yan and Lihan Jiang and Ningyuan Tang and Shengming Yin and Tianhe Wu and Xiao Xu and Xiaoyue Chen and Yan Shu and Yanran Zhang and Yilei Chen and Yixian Xu and Yuxiang Chen and Zhendong Wang and Zihao Liu and Zikai Zhou and Yiliang Gu and Yi Wang and Xiaoxiao Xu and Lin Qu},
+      year={2026},
+      eprint={2605.13565},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.13565}, 
+}
 ```
 
 ---
@@ -154,6 +162,6 @@ If you use OmniDoc-TokenBench or this evaluation toolkit in your research, pleas
 
 OmniDoc-TokenBench is a derivative dataset based on [OmniDocBench](https://github.com/opendatalab/OmniDocBench), Thanks for their great work.
 
-## 📜 License
+## License
 
 This dataset is developed by the Qwen Team at Alibaba Group, and licensed under the [Apache License 2.0](LICENSE).
